@@ -4,14 +4,10 @@ body{
   font-weight:20px;
 }
 
-div{
-width:100px;
-height:100px;
-margin:10px;
-background-color:white;
-}
-
-p{
-  
+li{
+  height:150px;
+  widht:200px;
+  margin:10px;
+  backgrand-color:white;
 }
 
