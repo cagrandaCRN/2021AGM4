@@ -4,6 +4,9 @@ body{
   font-weight:20px;
 }
 
+h1{
+text-align:center;}
+
 li{
   height:150px;
   widht:200px;
