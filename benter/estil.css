@@ -1,0 +1,113 @@
+body{
+  background-color: cyan;
+}
+
+#bola{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  background-color: #a6c1d6;
+  border: solid black 6px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.antena{
+  width: 200px;
+  height: 200px;
+  margin: 0  auto -53px;
+  background-color: #a6c1d6;
+  border: solid black 6px;
+  clip-path: polygon(45% 0, 50% 0, 70% 150%, 30% 150%);
+}
+
+.cuadrado {
+  width: 130px;
+  height: 50px;
+  background-color: #a6c1d6;
+  border: solid black 6px;
+  border-radius:  50px 50px 20px 20px;
+  margin: 0 auto;
+  top:50px;
+  position: relative;
+}
+
+.contorno {
+  width: 600px;
+  height: 900px;
+  background-color: #a6c1d6;
+  border: solid black 6px;
+  border-radius: 250px 250px 100px 100px;
+  margin: 0 auto;
+}
+
+#ojo{
+  width: 225px;
+  height: 225px;
+  background-color: #fefac2;
+  border-radius: 50%;
+  border: solid black 6px;
+  position: relative;
+}
+.ojo1 {
+  top: 300px;
+  left: -100px;
+}
+
+.ojo2{
+  top: 65px;
+  left: 100px;
+}
+
+.ojo1:before, .ojo2:before  {
+  width: 50px;
+  height: 50px;
+  background-color: #040407;
+  border-radius: 50%;
+  position: absolute;
+  content: '' ;
+  left: 120px;
+  top:90px;
+}
+
+.boca{
+  width: 400px;
+  height: 200px;
+  background-color: #fefac2;
+  border-radius: 0 50px 50px 0;
+  border: solid black 6px;
+  position: relative;
+  top:130px;
+  left:-6px;
+}
+
+hr{
+   height: 10px;
+   background-color: black;
+   border: solid black;
+   position: relative;
+   margin-top: 40px;
+}
+
+vr{
+   width: 10px;
+   height: 208px;
+   background-color: black;
+   bottom: 0;
+   top: 931px;
+   position: absolute;
+}
+
+#vr1{
+  margin-left:60px;
+}
+
+#vr2{
+  margin-left:180px;
+}
+
+#vr3{
+  margin-left:300px;
+}
