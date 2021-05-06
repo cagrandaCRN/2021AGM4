@@ -1,0 +1,38 @@
+body{
+  background-color: cyan;
+  font-size:15px;
+}
+
+h1{
+  text-align: center;
+}
+
+#contenedor {
+  margin: 25px auto;
+  background-color: white;
+  height: 900px;
+}
+
+#img1{
+width: 370px;
+float: left;
+margin: 0 10px;
+}
+
+#verso{
+  margin-left: 640px;
+}
+
+#p2{
+  margin-left: 35px;
+}
+
+#ultimoparrafo{
+  text-align: right;
+  margin-right: 210px;
+}
+
+#img2{
+width: 200px;
+float: right;
+}
