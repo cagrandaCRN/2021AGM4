@@ -1,0 +1,342 @@
+body{
+  background: cyan;
+  margin: 0;
+  padding: 0;
+}
+
+.montaña{
+  width: 200px;
+  height: 350px;
+  background: #1D8348 ;
+  position: absolute;
+  top: 250px;
+}
+
+#montaña1{
+  clip-path: polygon(47% 0, 56% 6%, 100% 100%, 0% 100%);
+  left: 750px;
+}
+
+#montaña2{
+  clip-path: polygon(20% 0%, 51% 20%, 100% 100%, 0% 100%);
+  left: 950px;
+}
+
+#montaña3{
+  clip-path: polygon(27% 13%, 56% 0, 100% 100%, 0% 100%);
+  left: 1150px;
+}
+
+.aves{
+  width: 80px;
+  height: 70px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 89% 50%);
+  background: black;
+  transform:rotate(60deg);
+  margin-left: 300px;
+}
+
+#ave2{
+  margin-left:500px;
+}
+
+#ave3{
+  margin-left: 1100px;
+  margin-top:-50px;
+}
+
+#fachada{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left:400px;
+  top:300px;
+  background-color: silver;
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px),
+  linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  opacity: 0.85;
+}
+
+.tejado{
+  width: 350px;
+  height: 100px;
+  background:#5D6D7E ;
+  position: absolute;
+  left:375px;
+  top: 200px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.ventana1{
+  width: 70px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  left:450px;
+  top: 370px;
+}
+
+.ventana2{
+  width: 70px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  left:580px;
+  top: 370px;
+}
+
+.puerta{
+  width: 50px;
+  height: 70px;
+  background: #34495E;
+  position: absolute;
+  left:520px;
+  top:530px;
+}
+
+.chimenea{
+  width: 30px;
+  height: 80px;
+  background: #808B96;
+  position: absolute;
+  left:655px;
+  top: 200px;
+}
+
+.humo1{
+  width: 60px;
+  height: 60px ;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  left:645px;
+  top: 135px;
+  opacity: 0.85;
+}
+
+.humo2{
+  width: 80px;
+  height: 80px ;
+  background: white;
+  border-radius: 50px;
+  position: absolute;
+  left:670px;
+  top:90px;
+  opacity: 0.80;
+}
+
+.sol{
+  width: 150px;
+  height:150px;
+  background: yellow;
+  box-shadow: 10px 0px 100px 40px #FFF176;
+  position: absolute;
+  left:90px;
+  top:35px;
+  border-radius: 50%;
+  animation: sol 3s infinite;
+}
+
+@keyframes sol {
+  from {top: 0px;}
+  to {background-color:orange; top: 550px}
+}
+
+.nube{
+  width: 250px;
+  height:100px;
+  background: #BFF;
+  background: linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -webkit-linear-gradient(top, #FFF 1%, #BFF 100%);
+  background: -moz-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -ms-linear-gradient(top, #BFF 5%, #DFF 100%);
+  background: -o-linear-gradient(top, #BFF 5%, #DFF 100%);
+  border-radius: 100px;
+  position: absolute;
+  }
+
+  #nubes1{
+    top:-40px;
+    left: 0px;
+    margin: 120px auto 20px;
+    left:750px;
+    animation: nube 4s infinite;
+    }
+
+  #nubes2{
+    top:20px;
+    left: 0px;
+    margin: 120px auto 20px;
+    left:750px;
+    animation: nubes2 4s infinite;
+    }
+
+@keyframes nube {
+  from {right:100%;}
+  to {left: 0%;}
+}
+
+@keyframes nubes2 {
+  from {left: 0%;}
+  to {right: 100%;}
+}
+
+.nube:after, .nube:before{
+  content: '';
+  position: absolute;
+  background: #FFF;
+  z-index:-1;
+}
+
+.nube:after{
+  width: 50px;
+  height:50px ;
+  top:-20px;
+  left: 20px;
+  border-radius: 100px;
+}
+
+.nube:before{
+  width: 150px;
+  height: 150px;
+  top: -80px;
+  right: 40px;
+  border-radius: 200px;
+}
+
+.sombra{
+  width: 250px;
+  background: #000;
+  position: absolute; bottom: -10px;
+  z-index:-1;
+  box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.base{
+  width:150%;
+  height:33%;
+  background: #27AE60;
+  position: absolute;
+  left:0px;
+  bottom: 0px;
+}
+
+.palo{
+  width:14px ;
+  height: 130px;
+  background: white;
+  position: absolute;
+}
+
+#palo1{
+  left:200px;
+  top:470px;
+}
+
+#palo2{
+  left:150px;
+  top:470px;
+}
+
+#palo3{
+  left:100px;
+  top:470px;
+}
+
+#palo4{
+  left:50px;
+  top:470px;
+}
+
+.reja1{
+  width:300px ;
+  height: 14px;
+  background: white;
+  position: absolute;
+  left:0px ;
+  top:520px;
+}
+
+.flor{
+  width: 100px;
+  height:50px;
+  background: pink;
+  border-radius: 25px;
+  margin-top: 320px;
+  margin-left: 755px;
+  position: absolute;
+  animation: flor 4s infinite;
+}
+
+@keyframes flor {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.flor:before{
+  width: 100px;
+  height:50px ;
+  border-radius: 50px;
+  background: pink;
+  content: '';
+  display: block;
+  position: absolute;
+  transform: rotate(60deg);
+}
+
+.flor::after{
+  width: 100px;
+  height:50px ;
+  border-radius: 50px;
+  background: pink;
+  content: '';
+  display: block;
+  transform: rotate(-60deg);
+}
+
+.capullo{
+  width: 50px;
+  height:50px ;
+  border-radius: 50px;
+  background: yellow;
+  margin-top: 320px;
+  margin-left: 780px;
+  position: absolute;
+}
+
+.tallo{
+  width: 10px;
+  height: 100px ;
+  background:#82E0AA ;
+  position: absolute;
+  top:548px;
+  left:800px;
+}
+
+.hoja{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #82E0AA;
+  top: 600px;
+  left: 770px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+}
+
+.hoja2{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #82E0AA;
+  top: 570px;
+  left: 810px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  transform: rotate(-170deg);
+}
