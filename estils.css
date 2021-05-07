@@ -1,0 +1,86 @@
+body{
+  background-image: linear-gradient(to top, #fbf7b8, #ffdcb0, #ffc4c5, #ffb9e7, #c2bbff);
+
+}
+
+
+.contenedor{
+    width: 1250px;
+    height: 1250px;
+    background-color: pink;
+    margin:0 auto;
+}
+
+
+h1{
+  text-align: center;
+  font-size:50px;
+  font-family: 'Charmonman', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Charmonman', cursive;
+  line-height: 250px;
+
+}
+
+.caixa{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  margin: 25px ;
+  float:left;
+}
+
+#uno{
+background-color: #fbf7b8;
+}
+
+
+#dos{
+background-color:#FE90AF;
+}
+
+#tres{
+  background-color: #A9F1DF;
+}
+
+#cuatro{
+  background-color: #c2bbff;
+}
+
+
+
+#boton:hover{
+  opacity: 50%;
+  transform: scale(1.5);
+
+}
+
+#boton{
+  text-decoration: none;
+  font-family: cursive;
+  font-size:25px;
+  line-height: 135px ;
+  position: fixed;
+  right:100px;
+  bottom:50px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color:black;
+}
+
+.cajitas{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+  float:right;
+}
