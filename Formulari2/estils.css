@@ -1,0 +1,28 @@
+body{
+background-color: #FADBD8 ;
+}
+
+h1{
+  text-align: center;
+}
+
+#contenedor{
+  width: 170px;
+  background-color:#FDEDEC;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+
+#envia{
+  background-color: #F37772;
+  margin-left: 60px;
+  font-family: fantasy ;
+}
+
+.cajitas{
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+}
