@@ -5,8 +5,10 @@ body{
 }
 
 h1{
-text align:center;
-color:pink;
+  text-align: center;
+  font-size:50px;
+  color:pink;
+  font-family:fantasy;
 
 }
 
