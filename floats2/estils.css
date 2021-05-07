@@ -1,0 +1,49 @@
+body{
+  background-color: #CCFFFF;
+}
+
+.caixa{
+  Width: 200px;
+  height: 200px;
+  margin:10px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  text-indent: 50px;
+  line-height: 100px;
+
+
+}
+
+#caixa{
+  background-color: navy;
+  float: left;
+}
+
+.caixa2{
+  Width: 200px;
+  height: 200px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-indent: 50px;
+  line-height: 100px;
+  color: white;
+  top: 25px;
+  left :50px;
+}
+
+#caixa2{
+  background-color: blue;
+  float: left;
+}
+
+#caixa3{
+  background-color: cyan;
+  float: left;
+}
+
+#caixa4{
+  background-color: #3300CC;
+  float: left;
+}
