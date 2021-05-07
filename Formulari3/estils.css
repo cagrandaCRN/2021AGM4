@@ -1,0 +1,75 @@
+body{
+  background: linear-gradient(to right, #000046, #1cb5e0);
+
+}
+
+h1{
+  text-align: center;
+  color:white;
+  font-size: 50px;
+  position: relative;
+  bottom: -16px;
+}
+
+p{
+  font-size: 14px;
+    color: black;
+    margin-left: 10px;
+    position: relative;
+    top: 19px;
+}
+
+#contenedor{
+width: 300px;
+height: 350px;
+background-color: ;
+margin: 0 auto;
+position: relative;
+bottom: -34px;
+
+}
+
+::-webkit-input-placeholder { color: black; }
+
+.cajitas{
+  width: 150px;
+height: 25px;
+text-align: center;
+margin: 14px;
+position: relative;
+left: 35px;
+
+}
+
+#envia{
+    margin-left: 70px;
+    font-family: sans-serif;
+    position: relative;
+    left: 31px;
+    bottom: -4px;
+}
+
+.caja {
+    width: 86px;
+    height: 25px;
+    text-align: center;
+    margin: -4px;
+    margin-left: 174px;
+    position: relative;
+    top: -14px;
+  }
+
+.caja2 {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+  margin-left:200px;
+  position: relative;
+  top: -30px;
+}
+
+input{
+  margin: 10px;
+  margin-left: 20px;
+}
