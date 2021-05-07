@@ -1,0 +1,93 @@
+body{
+  background-color:aqua;
+  margin: 0;
+
+}
+
+div{
+  background-color:pink;
+  width:200px;
+  height:200px;
+  margin:30px;
+  float: left;
+}
+
+#degradado{
+background: -webkit-linear-gradient(pink, red);
+}
+
+#degradado1{
+background: -webkit-linear-gradient(red, blue);
+}
+
+#degradado2 {
+background: -webkit-linear-gradient(left, red , blue);
+}
+
+#degradado3 {
+background: -webkit-radial-gradient(red, yellow, blue);
+}
+
+#degradado4{
+background: -webkit-linear-gradient(right, red , blue);
+}
+
+#degradado5{
+background: -webkit-linear-gradient(white,black);
+}
+
+#degradado6{
+background: -webkit-linear-gradient(yellow,orange);
+}
+
+#degradado7{
+background: -webkit-linear-gradient(left, #330033 , #993300);
+}
+
+#degradado8{
+background: -webkit-radial-gradient(red, blue, white);
+}
+
+#degradado9{
+background: -webkit-linear-gradient(right, #660066, #FF00FF);
+}
+
+#degradado10{
+background: -webkit-linear-gradient(#888800,#EEEE00);
+}
+
+#degradado11{
+background: -webkit-linear-gradient(#00FFFF, #007777);
+}
+
+#degradado12{
+background: -webkit-linear-gradient(left,#CC9900,#CC0000 );
+}
+
+#degradado13{
+background: -webkit-radial-gradient(red, purple, blue);
+}
+
+#degradado14{
+background: -webkit-linear-gradient(right, purple, fuchsia);
+}
+
+#degradado15{
+background: -webkit-linear-gradient(#CCCCCC, black);
+}
+
+#degradado16{
+background: -webkit-linear-gradient(#CCFF99,#999999 );
+}
+
+#degradado17{
+background: -webkit-linear-gradient(left, #CCFFFF ,#CC99FF );
+}
+
+#degradado18{
+background: -webkit-radial-gradient(#CC0099, #FF99CC);
+}
+
+#degradado19{
+background: -webkit-linear-gradient(right, #99FF00, #993300);
+}
