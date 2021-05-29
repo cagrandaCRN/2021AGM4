@@ -1,0 +1,112 @@
+body{
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #fbf7b8, #ffdcb0, #ffc4c5, #ffb9e7, #c2bbff);
+}
+
+.header{
+  width:1400px;
+  height: 250px;
+  background-image: url(img/github-atom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 20px;
+  margin-left: -54px;
+
+}
+
+
+.contenedor{
+    width: 900px;
+    height: 600px;
+    background-image:url(img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  font-size:37px;
+  font-family: 'Charmonman', cursive;
+  color:white;
+  line-height: 75px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Charmonman', cursive;
+  line-height: 130px;
+}
+
+.caixa{
+  background-color: ;
+  height: 120px;
+  width: 120px;
+  margin: 10px ;
+  float:left;
+  cursor: pointer;
+
+  display:block;
+  transform: translate(0px,0px)
+   scale(1);
+        -webkit-transform: translate(0px,0px) scale(1);
+        -moz-transform: translate(0px,0px) scale(1);
+        -o-transform: translate(0px,0px) scale(1);
+        -ms-transform: translate(0px,0px) scale(1);
+        -webkit-transition: all 500ms;
+}
+
+.caixa:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 30px 30px white;
+-webkit-box-shadow: 0px 0px 15px 15px #DCDCDC;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+#uno{
+background-color: #fbf7b8;
+
+}
+
+
+#dos{
+background-color:#FE90AF;
+}
+
+#tres{
+  background-color: #A9F1DF;
+}
+
+#cuatro{
+  background-color: #c2bbff;
+}
+
+
+#boton:hover{
+  opacity: 50%;
+  transform: scale(1.5);
+}
+
+#boton{
+  text-decoration: none;
+  font-family: 'Charmonman', cursive;
+  font-size:25px;
+  line-height: 135px ;
+  position: fixed;
+  right:105px;
+  bottom:-10px;
+}
+
+a:link{
+  text-decoration: none;
+  color: #DC143C;
+}
+
+a:visited{
+  color:black;
+}
